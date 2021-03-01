@@ -1,0 +1,85 @@
+.main-content {
+  margin-top: 30px;
+  padding: 0 15px;
+}
+
+.main-content-can__title {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+.main-content-can {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.main-content-can img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.main-content-can__list {
+  display: block;
+  padding-left: 20px;
+  font-size: 10px;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  padding-top: 10px;
+}
+
+.main-content-can__content {
+  margin-bottom: 20px;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+}
+
+.main-content-butan {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.main-content-butan img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.main-content-butan__list {
+  font-size: 10px;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.main-content-iron__title {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.main-content-iron__content {
+  font-size: 10px;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+}
+.main-content-iron__img {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.main-content-iron__nail {
+  width: 150px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.main-content-iron__pripan {
+  width: 150px;
+  height: 120px;
+  border-radius: 10px;
+}

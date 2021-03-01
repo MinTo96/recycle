@@ -1,0 +1,18 @@
+.header-title__bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.header-title__bar > a {
+  position: absolute;
+  left: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
+}
+.header-title__bar__title {
+  font-size: 20px;
+  font-weight: 700;
+}
