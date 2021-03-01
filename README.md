@@ -1,3 +1,3 @@
-# Plastic info
+# recycle info
 
-CSS got so much better!
+QR코드를 직접 만들어 핸드폰으로 QR코드를 찍을경우 관련 재활용 정보로 연결되는 웹페이지
