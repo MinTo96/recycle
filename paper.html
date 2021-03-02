@@ -4,27 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="styles.css" />
-    <title>Plastic</title>
+
+    <title>PAPER</title>
   </head>
-  <body onload="popUpBox()">
-    <main>
-      <div class="main-box">
-        <h2 class="main-box__title">플라스틱</h2>
-        <p class="main-box__content">플라스틱은 해롭다.</p>
+  <body>
+    <header class="header-title">
+      <div class="header-title__bar">
+        <a href="home.html"><i class="fas fa-chevron-left"></i></a>
+        <h4 class="header-title__bar__title">종이류 / 종이팩</h4>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <h2 class="main-content-paper__title">종이</h2>
+      <div class="main-content-paper">
+        <ul class="main-content-paper__list">
+          <li>
+            종이 종류에는 택배박스 노트 책 전단지 신문지 종이쇼핑백등이 있다.
+          </li>
+          <li>
+            이물질이 묻지 않은 종이는 나중에 새 종이나 노트류로 재활용이
+            가능하다.
+          </li>
+          <li>
+            만일 이물질이 묻은 종이나 다른 재질이 혼합된 종이는 일반쓰레기로
+            종량제 봉투에 넣어서 버려야한다.
+          </li>
+        </ul>
+        <div class="main-content-paper__img">
+          <img src="images/receipt.jpg" alt="" />
+          <img src="images/goldpaper.jfif" alt="" />
+          <img src="images/wallpaper.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="main-content-paperPak">
+        <h2 class="main-content-paperPak__title">고철 류</h2>
+        <ul class="main-content-paperPak__list">
+          <li>
+            휴지나 미용티슈로 재활용이 가능하기 때문에 종이와 따로 분류해서
+            버려야한다.
+          </li>
+          <li>
+            안에 내용물을 비우고 물로 헹군 후 압착하여 봉투에 넣거나 한꺼번에
+            묶어서 배출하도록 한다.
+          </li>
+          <li>
+            잘 말린 종이팩은 200ml 기준 100매를 모아서 동주민센터로 가져가면
+            화장지 1롤로 교환가능하다.
+          </li>
+        </ul>
+
+        <div class="main-content-paperPak__img">
+          <img src="images/paperpack.jfif" alt="" />
+        </div>
       </div>
     </main>
 
-    <div class="modal">
-      <div class="black_bg screen"></div>
-      <div class="modal_wrap screen">
-        <div class="modal_close"><a href="#">close</a></div>
-        <div class="modal_wrap__content">
-        경태는 롤 못 합니다.
-        </div>
-      <div>
-    </div>
+    <footer class="footer">
+      <div id="time-js" class="footer__bar">Posted 2021 02 26</div>
+    </footer>
 
-    <script src="app.js"></script>
+    <script src="clock.js"></script>
   </body>
 </html>

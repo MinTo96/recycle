@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "variable.css";
 
 @import "components/status-bar.css";
 @import "components/footer-bar.css";
@@ -6,6 +7,7 @@
 @import "screen/side-menu.css";
 @import "screen/main-home.css";
 @import "screen/can.css";
+@import "screen/paper.css";
 
 .main-box {
   width: 300px;

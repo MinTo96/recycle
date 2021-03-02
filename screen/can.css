@@ -4,8 +4,8 @@
 }
 
 .main-content-can__title {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: var(--title-font-size);
+  font-weight: var(--title-font-bold);
   padding-bottom: 40px;
 }
 
@@ -56,8 +56,8 @@
 }
 
 .main-content-iron__title {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: var(--title-font-size);
+  font-weight: var(--title-font-bold);
   padding-bottom: 30px;
 }
 
