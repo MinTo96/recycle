@@ -68,3 +68,7 @@ body {
   height: 250px;
   border-radius: 10px;
 }
+
+#menu-btn {
+  transition: all 1s ease-in-out;
+}

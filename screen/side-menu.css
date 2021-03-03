@@ -1,7 +1,7 @@
 .side-menu {
-  position: absolute;
+  position: fixed;
   top: 0;
-  right: 0;
+  right: -100%;
   z-index: 10;
   width: 65%;
   display: flex;
@@ -10,18 +10,13 @@
   background-color: white;
   height: 100%;
   padding-left: 25px;
-  animation: a 1s linear;
-  display: none;
-}
-
-#side-menu-quit-btn {
-  position: relative;
-  top: -10px;
+  transition: right 0.3s ease-in-out;
 }
 
 .side-menu__head {
   position: relative;
   top: -40px;
+  margin-top: 20px;
 }
 
 .side-menu__head img {
@@ -74,5 +69,6 @@
 }
 
 .show {
+  right: 0px;
   display: flex;
 }
