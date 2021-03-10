@@ -6,15 +6,14 @@
 .main-content-can__title {
   font-size: var(--title-font-size);
   font-weight: var(--title-font-bold);
-  padding-bottom: 40px;
-}
-
-.main-content-can {
-  display: flex;
   margin-bottom: 30px;
 }
 
-.main-content-can img {
+.main-content-can {
+  margin-bottom: 30px;
+}
+
+.main-content-can_img img {
   width: 100px;
   height: 100px;
   border-radius: 10px;
@@ -27,6 +26,7 @@
   letter-spacing: 0.4px;
   line-height: 20px;
   padding-top: 10px;
+  margin-bottom: 20px;
 }
 
 .main-content-can__content {
@@ -34,25 +34,6 @@
   font-size: 13px;
   letter-spacing: 0.4px;
   line-height: 20px;
-}
-
-.main-content-butan {
-  display: flex;
-  margin-bottom: 30px;
-}
-
-.main-content-butan img {
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
-}
-
-.main-content-butan__list {
-  font-size: 10px;
-  letter-spacing: 0.4px;
-  line-height: 20px;
-  padding-left: 20px;
-  padding-top: 10px;
 }
 
 .main-content-iron__title {

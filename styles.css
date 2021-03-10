@@ -1,10 +1,20 @@
+/* main style */
 @import "reset.css";
 @import "variable.css";
 
-@import "components/status-bar.css";
+/* component style */
+@import "components/nav-bar.css";
 @import "components/footer-bar.css";
+@import "components/main-content.css";
+@import "components/side-menu.css";
 
-@import "screen/side-menu.css";
+/* screen style */
 @import "screen/home.css";
 @import "screen/can.css";
 @import "screen/paper.css";
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}

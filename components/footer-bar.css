@@ -1,3 +1,4 @@
+/* MINTO: 화면의 footer의 style을 결정하는 메인 코드 210303 */
 .footer__bar {
   background-color: #f9f8fd;
   color: black;
@@ -10,6 +11,7 @@
   align-items: center;
 }
 
+/* MINTO: 화면의 유무를 결정해준다. 210303 */
 .invisible {
   display: none;
 }

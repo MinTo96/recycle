@@ -1,0 +1,37 @@
+.main-item {
+  margin-top: 30px;
+  padding: 0 15px;
+}
+
+.main__title {
+  font-size: var(--title-font-size);
+  font-weight: var(--title-font-bold);
+  margin-bottom: 30px;
+}
+
+.main-content {
+  margin-bottom: 30px;
+}
+
+.main-content__img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.main-content__list {
+  display: block;
+  padding-left: 20px;
+  font-size: 10px;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  /* padding-top: 10px; */
+  margin-bottom: 20px;
+}
+
+.main-content {
+  margin-bottom: 10px;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+}
