@@ -1,4 +1,9 @@
 :root {
     --title-font-size: 16px;
     --title-font-bold: font-weight: 700;
+
+    /* Color */
+    --color-grey: #F2F2F2;
+    --color-red: #FE2E2E;
+    --color-pink: #F781F3;
 }
