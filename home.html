@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontAwesome CDN -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
@@ -11,22 +12,30 @@
       crossorigin="anonymous"
     />
 
+    <!-- googleFont CDN -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="styles.css" />
 
     <title>RECYCLE</title>
   </head>
   <body>
-    <header class="main-header">
-      <div class="main-header__bar">
-        <a href="home.html"><img src="svg/main-icon.svg" alt="#" /></a>
-        <h4 class="main-header__bar__title">똑바'路'</h4>
+    <div class="main-header">
+      <div class="main-header__icon">
+        <img src="svg/main-icon.svg" alt="#" />
+        <a href="home.html" class="main-header__icon__title">똑바'路'</a>
+      </div>
+      <div class="main-header__btn">
         <i id="menu-btn" class="fas fa-bars"></i>
       </div>
-    </header>
+    </div>
 
     <div id="side-menu" class="side-menu">
       <div class="side-menu__btn">
-        <i id="side-menu-quit-btn" class="fas fa-arrow-right"></i>
+        <i id="side-menu-quit-btn" class="fas fa-times"></i>
       </div>
       <div class="side-menu__head">
         <img src="svg/main-icon.svg" alt="#" />
@@ -50,18 +59,12 @@
 
     <main class="main-article">
       <div class="main-article__title">
-        <a href=""><img src="images/main-image.jpg" alt="" /></a>
+        <a href=""><img src="svg/main-icon.svg" alt="" /></a>
         <h4>우리 아이들한테 좋은 세상을 남겨주자!</h4>
       </div>
       <div class="main-article__content">
-        <a href="http://www.me.go.kr/"
-          ><img src="images/site1.jfif" alt=""
-        /></a>
         <a href="http://shop.greenproduct.go.kr/"
           ><img src="images/site2.png" alt=""
-        /></a>
-        <a href="https://www.konetic.or.kr/"
-          ><img src="images/site3.jpg" alt=""
         /></a>
       </div>
     </main>

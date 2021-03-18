@@ -4,7 +4,7 @@
 }
 
 .main__title {
-  font-size: var(--title-font-size);
+  font-size: var(--font-size-big);
   font-weight: var(--title-font-bold);
   margin-bottom: 30px;
 }
@@ -51,7 +51,7 @@
 .hash-tag {
   display: flex;
   flex-wrap: wrap;
-  font-size: 8px;
+  font-size: 12px;
   opacity: 0.6;
   list-style: none;
 }

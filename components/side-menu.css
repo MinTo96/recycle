@@ -32,7 +32,11 @@
 .side-menu__head img {
   position: relative;
   left: -8px;
+  width: 80px;
+  height: 80px;
 }
+
+
 
 .side-menu__title {
   margin-top: 15px;
@@ -59,8 +63,9 @@
 
 .side-menu__btn {
   position: absolute;
-  top: 25px;
-  font-size: 25px;
+  top: 20px;
+  right: 17px;
+  font-size: 30px;
 }
 .side-menu__btn i {
   cursor: pointer;
