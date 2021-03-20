@@ -3,7 +3,7 @@
   background-color: #f9f8fd;
   color: black;
   position: relative;
-
+  font-weight: var(--weight-semi-bold);
   width: 100%;
   height: 80px;
   display: flex;

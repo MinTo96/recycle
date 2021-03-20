@@ -1,4 +1,4 @@
-.fixed{
+.fixed {
   overflow: hidden;
   height: 100%;
 }
@@ -36,17 +36,16 @@
   height: 80px;
 }
 
-
-
 .side-menu__title {
   margin-top: 15px;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: var(--weight-bold);
 }
 
 .side-menu__list {
   position: relative;
   top: -10px;
+  font-weight: var(--weight-semi-bold);
   list-style: none;
 }
 

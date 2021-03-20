@@ -8,8 +8,8 @@ body {
   align-items: center;
   width: 100%;
   padding: 16px;
-  /* position: fixed; */
-  z-index: 99;
+  position: fixed;
+  z-index: 5;
   background-color: white;
 }
 
@@ -22,8 +22,7 @@ body {
   font-weight: var(--weight-bold);
   font-size: var(--font-medium);
   color: var(--color-black);
-  font-family: 'Open Sans', sans-serif;
-
+  font-family: "Open Sans", sans-serif;
 }
 
 .main-header__icon > img {
@@ -76,4 +75,3 @@ body {
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
-

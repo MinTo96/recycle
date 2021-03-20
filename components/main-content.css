@@ -31,10 +31,11 @@
 
 .main-content__list {
   display: block;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 0.4px;
   line-height: 20px;
   margin-bottom: 20px;
+  font-weight: var(--weight-semi-bold);
 }
 
 .main-content__list li {
@@ -51,9 +52,10 @@
 .hash-tag {
   display: flex;
   flex-wrap: wrap;
-  font-size: 12px;
+  font-size: 15px;
   opacity: 0.6;
   list-style: none;
+  font-weight: var(--weight-seim-bold);
 }
 
 .hash-tag li:hover {
