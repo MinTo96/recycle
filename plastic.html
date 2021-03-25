@@ -19,7 +19,8 @@
     />
 
     <link rel="stylesheet" href="styles.css" />
-
+    <script src="menu.js" defer></script>
+    <script src="clock.js" defer></script>
     <title>PLASTIC</title>
   </head>
   <body>
@@ -28,7 +29,34 @@
         <a href="index.html"><i class="fas fa-chevron-left"></i></a>
         <h4 class="header-title__bar__title">플라스틱</h4>
       </div>
+      <div class="main-header__btn">
+        <i id="menu-btn" class="fas fa-bars"></i>
+      </div>
     </header>
+
+    <div id="side-menu" class="side-menu">
+      <div class="side-menu__btn">
+        <i id="side-menu-quit-btn" class="fas fa-times"></i>
+      </div>
+      <div class="side-menu__head">
+        <img src="svg/main-icon.svg" alt="#" />
+        <h2 class="side-menu__title">똑바'路'</h2>
+      </div>
+      <ul class="side-menu__list">
+        <a href="plastic.html"><li>플라스틱</li></a>
+        <a href="medicine.html"><li>폐의약품</li></a>
+        <a href="battery.html"><li>폐건전지</li></a>
+        <a href="glassbottle.html"><li>유리/병</li></a>
+        <a href="lamp.html"><li>형광등</li></a>
+        <a href="Cloth.html"><li>의류/천</li></a>
+        <a href="can.html"><li>캔/고철</li></a>
+        <a href="paper.html"><li>종이/종이팩</li></a>
+        <a href="vinyl.html"><li>비닐/포장지</li></a>
+        <a href="styrofoam.html"><li>스티로폼</li></a>
+        <a href="mask.html"><li>마스크</li></a>
+      </ul>
+    </div>
+    <div id="side-background" class="background-color"></div>
 
     <main class="main">
       <div class="main-item">
@@ -69,7 +97,5 @@
     <footer class="footer">
       <div id="time-js" class="footer__bar">Posted 2021 02 26</div>
     </footer>
-
-    <script src="clock.js"></script>
   </body>
 </html>
