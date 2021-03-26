@@ -22,3 +22,12 @@
 a {
   text-decoration: none;
 }
+
+.map {
+  height: 150px;
+}
+
+.map > div > a > i,
+.map > div > h4 {
+  font-size: 48px;
+}

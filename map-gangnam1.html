@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=1b6a3c1c88fbeb6763f74c8803b37b80&libraries=services"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer></script>
+    <!-- fontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+
+    <!-- googleFont CDN -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Kakao 지도 시작하기</title>
+    <style>
+      #map {
+        width: 100%;
+        height: 900px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header-title map">
+      <div class="header-title__bar">
+        <a href="index.html"><i class="fas fa-chevron-left"></i></a>
+        <h4 class="header-title__bar__title">동대문구</h4>
+      </div>
+    </header>
+
+    <div id="map"></div>
+    <script>
+      let mapContainer = document.getElementById("map"), // 지도를 표시할 div
+        mapOption = {
+          center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+          level: 3, // 지도의 확대 레벨
+        };
+
+      let map = new kakao.maps.Map(mapContainer, mapOption);
+
+      // 주소-좌표 변환 객체를 생성합니다
+      let geocoder = new kakao.maps.services.Geocoder();
+
+      const address = [
+        "서울특별시 강남구 학동로20길 25",
+        "서울특별시 강남구 학동로25길 27",
+        "서울특별시 강남구 논현로115길",
+        "서울특별시 강남구 강남대로118길 52",
+        "서울특별시 강남구 논현로115길 28",
+        "서울특별시 강남구 강남대로122길 52",
+        "서울특별시 강남구 학동로12길 43",
+        "서울특별시 강남구 강남대로122길 52",
+        "서울특별시 강남구 학동로12길 43",
+        "서울특별시 강남구 강남대로112길 41",
+      ];
+      // 주소로 좌표를 검색합니다
+
+      for (let i = 0; i < address.length; i++) {
+        geocoder.addressSearch(address[i], function (result, status) {
+          // 정상적으로 검색이 완료됐으면
+          if (status === kakao.maps.services.Status.OK) {
+            let coords = new kakao.maps.LatLng(result[0].y, result[0].x);
+
+            // 결과값으로 받은 위치를 마커로 표시합니다
+            let marker = new kakao.maps.Marker({
+              map: map,
+              position: coords,
+            });
+
+            // 인포윈도우로 장소에 대한 설명을 표시합니다
+            let infowindow = new kakao.maps.InfoWindow({
+              content:
+                '<div style="width:150px;text-align:center;padding:6px 0;">폐건전지함</div>',
+            });
+            infowindow.open(map, marker);
+
+            // 지도의 중심을 결과값으로 받은 위치로 이동시킵니다
+            map.setCenter(coords);
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
